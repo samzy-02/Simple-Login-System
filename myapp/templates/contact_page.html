@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href={% static 'css/styles.css' %}>
+</head>
+<body>
+    <div class="formpage">
+        <h2>Contact</h2>
+        <form method = 'POST'>
+            {% csrf_token %}
+            <h4 class="name">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Name:{{ form.name }}</h4>
+            <h4 class='email'>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp email:{{ form.email }}</h4>
+            <h4 class="description">description: {{ form.description }}</h4>
+            <button type='submit'>submit</button>
+        </form>
+    </div>
+</body>
+</html>

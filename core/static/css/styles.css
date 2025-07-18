@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.homepage{
+    margin:  0 auto;
+    text-align: center;
+    background-color: #dcb552;
+    margin-top: 200px;
+    height: 250px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 0px rgb(172, 171, 171);
+}
+.homepage, h2{
+    padding: 30px;
+    color: white;
+}
+
+button {
+    margin: 20px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 0px rgb(123, 120, 120);
+}
+button:hover{
+    color: rgb(254, 254, 254);
+    background: rgb(29, 28, 28);
+}
+
+
+
+.formpage{
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: #dcb552;
+    height: 450px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px rgb(172, 171, 171)
+}
+
+.formpage form input {
+    margin: 10px;
+    height: 20px;
+    
+}
+
+.name input,.email input{
+    color: rgb(0, 0, 0);
+    width: 311px;
+}
+
+.name, .email, .description {
+    color: white;
+}
+
+.success{
+    width: 600px;
+    background-color: #dcb552;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.success a{
+    text-decoration: none;
+}
+
+.success a:hover {
+    color: white;
+}
